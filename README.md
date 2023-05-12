@@ -12,7 +12,7 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application for man
 To install the application, follow these steps:
 
 1. Clone this repository to your local machine using `git clone https://github.com/mathiuskitchens/mern-Employees.git`
-2. Navigate to the root directory of the application using `cd mern_Employees`
+2. Navigate to the root directory of the application using `cd mern-Employees`
 3. Install the dependencies by running `npm install` in the root directory
 4. Navigate to the `backend` directory using `cd backend`
 5. Install the backend dev dependencies by running `npm install` in the `backend` directory
@@ -38,13 +38,13 @@ The application provides the following features:
 
 The back-end API provides the following endpoints:
 
-| Endpoint | HTTP Method | Description |
-| --- | --- | --- |
-| `/api/employees` | GET | Get a list of all employees |
-| `/api/employees/:id` | GET | Get a single employee by ID |
-| `/api/employees` | POST | Create a new employee |
-| `/api/employees/:id` | PATCH | Update an existing employee |
-| `/api/employees/:id` | DELETE | Delete an employee |
+| Endpoint             | HTTP Method | Description                 |
+| -------------------- | ----------- | --------------------------- |
+| `/api/employees`     | GET         | Get a list of all employees |
+| `/api/employees/:id` | GET         | Get a single employee by ID |
+| `/api/employees`     | POST        | Create a new employee       |
+| `/api/employees/:id` | PATCH       | Update an existing employee |
+| `/api/employees/:id` | DELETE      | Delete an employee          |
 
 ## Technologies
 
